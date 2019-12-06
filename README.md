@@ -14,7 +14,7 @@ To run using preprocessed data set and embeddings [(available here)](https://dri
 ## Steps to run
 *Note: If you are using my preprocessed data, you can skip to step 3 and skip most of 4 and 5 to generate embeddings.*
 
-1. Download the DBLP v11 dataset from [Aminer](https://aminer.org/citation). Direct download link is here: [Link](https://lfs.aminer.cn/misc/dblp.v11.zip). Your file size should be approximately 4 GB and 12 GB before and after unzipping.
+1. Download the DBLP v11 dataset from [Aminer](https://aminer.org/citation).[2] Direct download link is here: [Link](https://lfs.aminer.cn/misc/dblp.v11.zip). Your file size should be approximately 4 GB and 12 GB before and after unzipping.
 
 2. Run the following line:
 
@@ -47,3 +47,4 @@ This command runs pub2vec and aggregates the embedding file. At the end, you sho
 
 ### References
 [1] Leskovec, Jure, and Rok Sosič. "Snap: A general-purpose network analysis and graph-mining library." ACM Transactions on Intelligent Systems and Technology (TIST) 8.1 (2016): 1.
+[2] Tang, Jie, et al. "Arnetminer: extraction and mining of academic social networks." Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2008.
