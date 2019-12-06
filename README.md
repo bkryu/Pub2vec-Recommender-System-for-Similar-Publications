@@ -5,12 +5,12 @@ Last Updated 12/05/2019
 Author: Brian K. Ryu
 
 ## Requirements
-To run the entire code here including dataset processing, you will need Python2, Python3, [SNAP for Python](http://snap.stanford.edu/snappy/index.html), and the following libraries for Python: Numpy, Scipy, and JSON. 
+To run the entire code here including dataset processing, you will need Python2, Python3, [SNAP for Python](http://snap.stanford.edu/snappy/index.html), and the following libraries for Python: Numpy, Scipy, and JSON. You will need Jupyter Notebook to see the iPython notebook using the embeddings.
 
-To run using preprocessed data set and embeddings [(available here)](https://drive.google.com/drive/folders/1ZgqwtSXKe8toQkF8Y1QzcdsTCa9dBtJy?usp=sharing), you will need Python3 and the following libraries for Python: Numpy, Scipy, and JSON. 
+To run using preprocessed data set and embeddings [(available here)](https://drive.google.com/drive/folders/1ZgqwtSXKe8toQkF8Y1QzcdsTCa9dBtJy?usp=sharing), you will need Python3 and the following libraries for Python: Numpy, Scipy, and JSON. You will need Jupyter Notebook to see the iPython notebook using the embeddings.
 
 ## Steps to run
-*Note: If you are using my preprocessed data, you can skip to step 3*
+*Note: If you are using my preprocessed data, you can skip to step 3 and skip most of 4 and 5 to generate embeddings.*
 
 1. Download the DBLP v11 dataset from [Aminer](https://aminer.org/citation). Direct download link is here: [Link](https://lfs.aminer.cn/misc/dblp.v11.zip). Your file size should be approximately 4 GB and 12 GB before and after unzipping.
 
