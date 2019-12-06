@@ -11,3 +11,4 @@ q[2]=2.0
 
 input_graph=graph/dblp_snapgraph.txt
 output_embedding_header=emb/dblp
+final_embedding=emb/d32combined.txt
