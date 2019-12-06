@@ -45,5 +45,5 @@ This command runs pub2vec and aggregates the embedding file. At the end, you sho
 6. Using Jupyter notebook, you can examine the iPython notebook I have written and ran in `Pub2vec_Analysis.ipynb` to query similar publications.
 
 
-
+### References
 [1] Leskovec, Jure, and Rok Sosič. "Snap: A general-purpose network analysis and graph-mining library." ACM Transactions on Intelligent Systems and Technology (TIST) 8.1 (2016): 1.
