@@ -4,6 +4,8 @@ Last Updated 12/05/2019
 
 Author: Brian K. Ryu
 
+*Note: This code base here was slightly modified from the high performance C++ SNAP library from the Stanford SNAP Group[1]*
+
 ## Requirements
 To run the entire code here including dataset processing, you will need Python2, Python3, [SNAP for Python](http://snap.stanford.edu/snappy/index.html), and the following libraries for Python: Numpy, Scipy, and JSON. You will need Jupyter Notebook to see the iPython notebook using the embeddings.
 
@@ -41,3 +43,7 @@ Ideally, your computer should be able to support openMP to speed up the embeddin
 This command runs pub2vec and aggregates the embedding file. At the end, you should have `d32combined.txt` in `./emb/`. If you donwloaded my preprocessed embedding, placed the `d32combined.txt` in `./emb/`.
 
 6. Using Jupyter notebook, you can examine the iPython notebook I have written and ran in `Pub2vec_Analysis.ipynb` to query similar publications.
+
+
+
+[1] Leskovec, Jure, and Rok Sosič. "Snap: A general-purpose network analysis and graph-mining library." ACM Transactions on Intelligent Systems and Technology (TIST) 8.1 (2016): 1.
