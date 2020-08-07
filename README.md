@@ -9,11 +9,11 @@ Machine learning methods for recommender systems have proved their efficacy and 
 ## tl;dr
 Pub2vec constructs shallow graph embeddings of publications based on citation relations. These low-dimensional embeddings can be used to find similar publications.
 
-![Overview](./Writeups/images/ColorOverview.pdf)
+![Overview](./Writeups/images/ColorOverview.png)
 
 Some inputs and outputs of queries are shown below where titles highlighted red are *irrelevant* and titles highlighted blue are *relevant*
 
-![Overview](./Writeups/images/Table.pdf)
+![Overview](./Writeups/images/Table.png)
 
 
 *Note: This code base here was slightly modified from the high performance C++ SNAP library from the Stanford SNAP Group[1]*
