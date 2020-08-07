@@ -1,8 +1,13 @@
 # Pub2vec: A Recommender System for Similar Publications via Citation Network Embeddings
-CS229 Fall 2019 Final Project
 Last Updated 12/05/2019
 
 Author: Brian K. Ryu
+
+## Abstract
+Machine learning methods for recommender systems have proved their efficacy and have become popular for a wide range of applications ranging from product recommendations to advertisements and social networks. However, a potentially beneficial application of recommender systems that has yet to be realized is one for scientific publications. In this project, I present the pub2vec algorithm trained on a citation network to identify and recommend similar publications. A citation network is a social network that contains citation relations of academic publications. Although the network is simply a directed graph where nodes represent publications and edges represent citation relations, the network implicitly embodies information on the contents via links between citing and cited papers. The algorithm generates low-dimensional representations of a citation network, which are input to nearest neighbor algorithms to identify similar or closely related works. My results show that the publications recommended by pub2vec are highly relevant to queried publications. This work will potentially be able to aid researchers in conducting literature searches.
+
+## tl;dr
+Pub2vec constructs shallow graph embeddings of publications based on citation relations. These low-dimensional embeddings can be used to find similar publications.
 
 *Note: This code base here was slightly modified from the high performance C++ SNAP library from the Stanford SNAP Group[1]*
 
@@ -44,6 +49,7 @@ This command runs pub2vec and aggregates the embedding file. At the end, you sho
 
 6. Using Jupyter notebook, you can examine the iPython notebook I have written and ran in `Pub2vec_Analysis.ipynb` to query similar publications.
 
+*This project was comlpeted for CS229 Fall 2019 Final Project at Stanford University*
 
 ### References
 [1] Leskovec, Jure, and Rok Sosič. "Snap: A general-purpose network analysis and graph-mining library." ACM Transactions on Intelligent Systems and Technology (TIST) 8.1 (2016): 1.
